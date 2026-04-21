@@ -1,0 +1,269 @@
+.header{
+    height:57px;
+    border-width: 1px;
+    border-color:gray;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(222, 216, 216);
+    border-bottom-style: solid;
+    z-index: 100;
+    
+  
+
+} 
+.left{
+  
+    display: flex;
+    align-items: center;
+}
+.youtube-logo{
+    height: 21px;
+    cursor: pointer;
+}
+.menu-icon{
+   height: 24px;
+   margin-left: 24px;
+   margin-right:24px;
+   cursor: pointer;
+
+}
+.middle{
+    flex:1;
+    display: flex;
+    align-items: center;
+    max-width: 544px;
+    
+   
+  
+    
+}
+.search-bar{
+    height:36.4px;
+    flex:1;
+    border-width: 1px;
+    border-color:rgb(204,204,204);
+    border-style: solid;
+    margin-left: 75px;
+    margin-right: -3px;;
+    padding-right:40px;
+    border-width: 1px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15);
+    padding-left:12px;
+    padding-right:2px;
+    padding-top:1px;
+    padding-bottom:1px;
+    width: 0;
+    transition: 0.25s;
+}
+.search-bar:hover {
+    border-color: blue;
+}
+    
+    
+
+.search-button{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    position: relative;
+    cursor: pointer;
+    height:40px;
+    width:64px;
+    padding-left: 6px;
+    padding-right:6px;
+    padding-top:1px;
+    padding-bottom: 1px;
+    margin-right:8px;
+   
+   
+}
+.tooltip{
+    position:absolute;
+    background-color: rgba(130, 129, 129, 0.796);
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:6px;
+    padding-right:6px;
+    color:white;
+    font-family: roboto,arial;
+    font-size:12px;
+    bottom:-45px;
+    opacity: 0;
+    transition: .25s;
+    pointer-events: none;
+
+    
+}
+.search-button:hover .tooltip{
+    opacity:1;
+}
+.voice .voc{
+    position:absolute;
+    background-color: rgba(130, 129, 129, 0.796);
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:6px;
+    padding-right:6px;
+    color:white;
+    font-family: roboto,arial;
+    font-size:12px;
+    bottom:-35px;
+    opacity: 0;
+    right:455px;
+    transition: .25s;
+    pointer-events: none;
+
+    
+}
+.voice:hover .voc{
+    opacity: 1;
+}
+.search-bar::placeholder {
+    font-size:15px;
+    font-family: roboto,arial;
+    
+}
+    
+.search-icon{
+    height:24px;
+}
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
+    cursor: pointer;
+  
+    
+}
+.voice{
+    border-width: 1px;
+    border-style: solid;
+    border-color:gray;
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 6px;
+    padding-right:6px;
+    padding-top:1px;
+    padding-bottom: 1px;
+
+
+}
+   
+.right {
+    display: flex;
+    align-items: center;
+    width: 183px;
+    justify-content: space-between;
+    margin-left: 29px;
+    margin-right:24px ;
+    flex-shrink: 0;
+}
+
+.uplode-icon{
+    height: 24px;
+    cursor: pointer;
+
+}
+.create .tool{
+    position:absolute;
+    background-color: rgba(130, 129, 129, 0.796);
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:6px;
+    padding-right:6px;
+    color:white;
+    font-family: roboto,arial;
+    font-size:12px;
+    bottom:-32px;
+    opacity: 0;
+    right:168px;
+    transition: .25s;
+    pointer-events: none;
+}
+.create:hover .tool{
+    opacity:1;
+}
+
+.youtube-icon{
+    height: 24px;
+    cursor: pointer;
+    
+}
+.apps-icon .apps{
+    position:absolute;
+    background-color: rgba(130, 129, 129, 0.796);
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:6px;
+    padding-right:6px;
+    color:white;
+    font-family: roboto,arial;
+    font-size:12px;
+    bottom:-32px;
+    opacity: 0;
+    right:98px;
+    transition: .25s;
+    pointer-events: none;
+}
+.apps-icon:hover .apps{
+    opacity: 1;
+}
+
+.well-icon{
+    position: relative;
+}
+.well-icon .noti{
+    position:absolute;
+    background-color: rgba(130, 129, 129, 0.796);
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:6px;
+    padding-right:6px;
+    color:white;
+    font-family: roboto,arial;
+    font-size:12px;
+    bottom:-35px;
+    opacity: 0;
+    right:-30px;
+    transition: .25s;
+    pointer-events: none;
+
+}
+.well-icon:hover .noti{
+    opacity: 1;
+}
+.notification-button{
+    background-color: rgba(184, 7, 7, 0.988);
+    color:white;
+    border-style: none;
+    border-radius:12px;
+    top:-3px;
+    right:-2px;
+    position: absolute;
+    font-family: roboto,arial;
+    font-size:11px;
+    padding-left: 4.3px;
+    padding-right:4.3px ;
+    padding-top:1.2px;
+    padding-bottom:1.2px;
+    
+
+}
+.notification-icon{
+    height: 24px;
+    cursor: pointer;
+   
+}
+.chanel-icon{
+    height: 32px;
+    cursor: pointer;
+    
+}

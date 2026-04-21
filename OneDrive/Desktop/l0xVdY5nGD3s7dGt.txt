@@ -1,0 +1,17 @@
+l0xVdY5nGD3s7dGt
+mongodb+srv://<summit>:<l0xVdY5nGD3s7dGt>@cluster0.jgmyp2l.mongodb.net/
+
+mongodb+srv://<summit>:<@#SummiT9>@vulcher.pczamoe.mongodb.net/
+
+
+
+
+
+y3H7SlJhRKYmTHIS
+mongodb+srv://Summit:y3H7SlJhRKYmTHIS@cluster0.jgmyp2l.mongodb.net/
+
+mongodb+srv://Summit:y3H7SlJhRKYmTHIS@cluster0.jgmyp2l.mongodb.net/?appName=Cluster0
+
+MONGODB_URI=mongodb+srv://Summit:YOUR_PASSWORD@cluster0.jgmyp2l.mongodb.net/inventory?retryWrites=true&w=majority
+
+EAS project 383716cb-bf47-4ec1-a317-2d61fc543d5c

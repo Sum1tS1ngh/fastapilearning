@@ -1,0 +1,66 @@
+
+
+.chan-1{
+    width:36px;
+    border-radius:18px;
+    margin-top:8px;
+}
+.thum-row-1{
+    position: relative;
+}
+.video-time{
+    background-color: rgba(0, 0, 0, 0.807);
+    color:white;
+    position: absolute;
+    bottom:8px;
+    right:4px;
+    font-family: roboto,arial;
+    font-weight:500;
+    font-size: 12px;
+    padding:4px ;
+
+}
+
+
+.thum1{
+    width:100%;
+    
+}
+
+.title-1{
+    
+
+    font-size:14px;
+    font-weight:500;
+    line-height:20px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+
+}
+
+.author-1{
+   
+    margin-bottom:4px;
+    font-size:12px;
+    color:#606060;
+   
+
+}
+.uplode-1{
+    font-size:12px;
+    color:#606060;
+    
+    
+}
+.pro-info{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+
+}
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:16px;
+    row-gap:40px;
+}
+
